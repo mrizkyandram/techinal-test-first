@@ -1,13 +1,13 @@
-package com.test_obs.inventoryms;
+package com.technicaltest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestObsInventorymsApplication {
+public class TechnicalTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestObsInventorymsApplication.class, args);
+		SpringApplication.run(TechnicalTestApplication.class, args);
 	}
 
 }
