@@ -1,9 +1,6 @@
 package com.test_obs.inventoryms.service;
 
-import com.test_obs.inventoryms.dto.InventoryDTO;
 import com.test_obs.inventoryms.exception.ResourceNotFoundException;
-import com.test_obs.inventoryms.model.Inventory;
-import com.test_obs.inventoryms.model.Item;
 import com.test_obs.inventoryms.repository.InventoryRepository;
 import com.test_obs.inventoryms.repository.ItemRepository;
 import org.junit.jupiter.api.BeforeEach;

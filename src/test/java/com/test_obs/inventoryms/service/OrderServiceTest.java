@@ -1,11 +1,7 @@
 package com.test_obs.inventoryms.service;
 
-import com.test_obs.inventoryms.dto.OrderDTO;
 import com.test_obs.inventoryms.exception.InsufficientStockException;
 import com.test_obs.inventoryms.exception.ResourceNotFoundException;
-import com.test_obs.inventoryms.model.Inventory;
-import com.test_obs.inventoryms.model.Item;
-import com.test_obs.inventoryms.model.Order;
 import com.test_obs.inventoryms.repository.InventoryRepository;
 import com.test_obs.inventoryms.repository.ItemRepository;
 import com.test_obs.inventoryms.repository.OrderRepository;

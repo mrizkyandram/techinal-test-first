@@ -11,7 +11,7 @@
     <artifactId>inventoryms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test-obs-inventoryms</name>
-    <description>Demo project for Spring Boot - Test OBS</description>
+    <description>Demo project for Spring Boot - Test</description>
     <url/>
     <licenses>
         <license/>
@@ -42,10 +42,23 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.h2database</groupId>-->
+<!--            <artifactId>h2</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+
+        <!-- Maven -->
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160810</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

@@ -1,7 +1,5 @@
 package com.test_obs.inventoryms.controller;
 
-import com.test_obs.inventoryms.dto.OrderDTO;
-import com.test_obs.inventoryms.service.OrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
